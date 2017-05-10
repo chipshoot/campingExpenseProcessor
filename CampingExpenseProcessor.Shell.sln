@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampingExpenseProcessor.Shell", "CampingExpenseProcessor.Shell\CampingExpenseProcessor.Shell.csproj", "{4ADCAF12-98B3-4EA1-9C28-5B21BAEAE785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampingExpenseProcessor.Service.Tests", "CampingExpenseProcessor.Service.Tests\CampingExpenseProcessor.Service.Tests.csproj", "{7DE1E534-0074-413A-8D64-8435C3C64FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampingExpenseProcessor.Service", "CampingExpenseProcessor.Service\CampingExpenseProcessor.Service.csproj", "{D5B70D01-8223-4DB4-B3C5-D8B8E0DC7434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampingExpenseProcessor.DomainEntity", "CampingExpenseProcessor.DomainEntity\CampingExpenseProcessor.DomainEntity.csproj", "{D0BE0CE1-A7C7-4CA4-BAFF-6515EEF7550B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampingExpenseProcessor.Dal", "CampingExpenseProcessor.Dal\CampingExpenseProcessor.Dal.csproj", "{4C8369D1-4CC2-4D9F-9B9D-E81446097980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADCAF12-98B3-4EA1-9C28-5B21BAEAE785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADCAF12-98B3-4EA1-9C28-5B21BAEAE785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADCAF12-98B3-4EA1-9C28-5B21BAEAE785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADCAF12-98B3-4EA1-9C28-5B21BAEAE785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE1E534-0074-413A-8D64-8435C3C64FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE1E534-0074-413A-8D64-8435C3C64FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE1E534-0074-413A-8D64-8435C3C64FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE1E534-0074-413A-8D64-8435C3C64FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B70D01-8223-4DB4-B3C5-D8B8E0DC7434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B70D01-8223-4DB4-B3C5-D8B8E0DC7434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B70D01-8223-4DB4-B3C5-D8B8E0DC7434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B70D01-8223-4DB4-B3C5-D8B8E0DC7434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BE0CE1-A7C7-4CA4-BAFF-6515EEF7550B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BE0CE1-A7C7-4CA4-BAFF-6515EEF7550B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BE0CE1-A7C7-4CA4-BAFF-6515EEF7550B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BE0CE1-A7C7-4CA4-BAFF-6515EEF7550B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8369D1-4CC2-4D9F-9B9D-E81446097980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8369D1-4CC2-4D9F-9B9D-E81446097980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8369D1-4CC2-4D9F-9B9D-E81446097980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8369D1-4CC2-4D9F-9B9D-E81446097980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
